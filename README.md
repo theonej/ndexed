@@ -1,4 +1,4 @@
-# ndexed
+# N-Dexed
 A project for storing data securely in the cloud.
 
 ##What is it?
