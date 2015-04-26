@@ -1,0 +1,37 @@
+<style>
+    body {
+        background-color: #fff;
+        margin:0px;
+        padding:0px;
+    }
+
+    .header
+    {
+        margin:0px;
+        padding:15px;
+        background-color:#ee283b;
+        height:65px;
+    }
+
+    .body
+    {
+        padding:25px;
+    }
+    div{
+        width:100%;
+    }
+</style>
+<div>
+    <div class="header">
+        <a href="NDexed.mobi"><img src="https://s3.amazonaws.com/NDexed.resources/logo.png" alt="NDexed"></a>
+    </div>
+    
+    <div class="body">
+		A new order Has Been Submitted!
+		<br>
+        <a href="{{orderSubmittedUrl}}">Click Here to Set Your View the Order Details</a>
+    </div>
+    <div class="body">
+        <p>This email was sent because an order was submitted for one of your locations.</p>
+    </div>
+</div>
